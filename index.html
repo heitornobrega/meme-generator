@@ -9,14 +9,27 @@
 </head>
 <body>
         <h1>Meme generator</h1>
-        <input type="text" name="text-input" id="text-input">
-        <div id="meme-image-container">
-            
-                <!-- <img src="exterminator.jpg" alt="Duas pessoas em uma moto, o garupa com uma escopeta apontada para a câmera"> -->
-                <p id="meme-text"></p>
+        <input type="text" name="text-input" id="text-input" maxlength="60" >
 
-            
+        <div id="meme-image-container">
+                <section id="meme-text"></section>
+                <img  id="meme-image" src="" alt="Duas pessoas em uma moto, o garupa com uma escopeta apontada para a câmera">
+                
+          
         </div>
+        <input type="file" name="meme-insert" id="meme-insert">
+
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+        <img src="imgs/meme1.png" width="200" id="meme-1" alt="Will Smith dando um tapa no chris rock 1">
+        <img src="imgs/meme2.png" width="200" id="meme-2" alt="Will Smith dando um tapa no chris rock 2">
+        <img src="imgs/meme3.png" width="200" id="meme-3" alt="Will Smith dando um tapa no chris rock 3">
+        <img src="imgs/meme4.png" width="200" id="meme-4" alt="Will Smith dando um tapa no chris rock 4">
+        
+
+
+
 </body>
 <script src="script.js"></script>
 </html>
